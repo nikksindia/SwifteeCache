@@ -1,5 +1,4 @@
 # NKCache
-> Short blurb about what your product does.
 
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
