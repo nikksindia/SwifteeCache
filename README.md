@@ -7,6 +7,7 @@
 
 Simple on disk cache, backed by an NSCache in memory. It automatically purges itself when memory gets low.
 
+NOTE: Data Model needs to implement 'Codable(Encodable&Decodable)' protocol to be saved on the cache.
 
 ## Requirements
 
