@@ -16,7 +16,7 @@ Simple on disk cache, backed by an NSCache in memory. It automatically purges it
 ## Installation
 
 #### CocoaPods
-You can use [CocoaPods](http://cocoapods.org/) to install `NKCache` by adding it to your `Podfile`:
+You can use [CocoaPods](https://cocoapods.org/pods/NKCache) to install `NKCache` by adding it to your `Podfile`:
 
 ```ruby
 platform :ios, '9.0'
@@ -51,7 +51,7 @@ We would love you for the contribution to **NKCache**, check the ``LICENSE`` fil
 
 ## Meta
 
-Nikhil Sharma – [@YourTwitter](https://twitter.com/dbader_org) – nikksindia@gmail.com
+Nikhil Sharma – [@devilnikks](https://twitter.com/devilnikks) – nikksindia@gmail.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
