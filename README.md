@@ -55,7 +55,7 @@ Nikhil Sharma – [@YourTwitter](https://twitter.com/dbader_org) – nikksindia@
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/nikksindia/NKCache](https://github.com/nikksindia/)
 
 [swift-image]:https://img.shields.io/badge/swift-4.0-orange.svg
 [swift-url]: https://swift.org/
