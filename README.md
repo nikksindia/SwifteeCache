@@ -3,7 +3,7 @@
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
-[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
+[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](https://cocoapods.org/pods/NKCache)
 
 Simple on disk cache, backed by an NSCache in memory. It automatically purges itself when memory gets low.
 
