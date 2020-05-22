@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct Product:Codable{
-    var name:String?
-    var proudctId:Int?
-    var productSKU:String?
-    var price:Double?
+struct Product:Codable {
+  var name:String?
+  var proudctId:Int?
+  var productSKU:String?
+  var price:Double?
 }
