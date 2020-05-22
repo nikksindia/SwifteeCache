@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import NKCache
+import SwiftiCache
 
 class ViewController: UIViewController {
 
@@ -24,11 +24,11 @@ class ViewController: UIViewController {
                             proudctId: 3237,
                             productSKU: "MKL435678",
                             price: 320.90)
-        NKCacheManager.sharedInstance.setObject(item1,forKey: "product")
+        SwiftiCacheManager.sharedInstance.setObject(item1,forKey: "product")
     }
     
     func fetchProductDataFromCache() {
-        let result = NKCacheManager.sharedInstance.getObjectForKey("product")
+        let result = SwiftiCacheManager.sharedInstance.getObjectForKey("product")
         debugPrint("Fetched result from cache \(String(describing: result))")
     }
     @IBAction func fetchDataButtonAction(_ sender: Any) {

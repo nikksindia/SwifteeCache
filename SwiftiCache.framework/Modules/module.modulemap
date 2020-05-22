@@ -1,0 +1,11 @@
+framework module SwiftiCache {
+  umbrella header "SwiftiCache.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftiCache.Swift {
+    header "SwiftiCache-Swift.h"
+    requires objc
+}
