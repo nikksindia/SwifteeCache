@@ -3,7 +3,7 @@
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/NKCache.svg)](https://cocoapods.org/pods/NKCache)  
-[!][Platform](https://img.shields.io/cocoapods/p/NKCache.svg?style=flat)
+[![Platform](https://img.shields.io/cocoapods/p/NKCache.svg?style=flat)
 
 Simple on disk cache, backed by an NSCache in memory. It automatically purges itself when memory gets low.
 
@@ -42,7 +42,7 @@ func removeAllObjects()
 For fetching objects in cache:
 
 ```swift
-func getObjectForKey<T:Codable>(_ key:String, completionHandler: @escaping (T?)->())
+func getObjectForKey<T:Codable>(_ key:String)->T?
 func objectExistsForKey(_ key:String)->Bool
 ```
 
