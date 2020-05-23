@@ -4,7 +4,7 @@
 [![License][license-image]][license-url]
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwifteeCache.svg)](https://cocoapods.org/pods/SwifteeCache)  
 ![Platform](https://img.shields.io/cocoapods/p/NKCache.svg?style=flat)
-[![Build Status](https://travis-ci.org/nikksindia/SwifteeCache.svg?branch=master)](https://travis-ci.org/nikksindia/SwifteeCache)
+[![Build Status](https://travis-ci.com/nikksindia/SwifteeCache.svg?branch=master)](https://travis-ci.com/github/nikksindia/SwifteeCache)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
