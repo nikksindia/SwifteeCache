@@ -5,6 +5,8 @@
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwifteeCache.svg)](https://cocoapods.org/pods/SwifteeCache)  
 ![Platform](https://img.shields.io/cocoapods/p/NKCache.svg?style=flat)
 [![Build Status](https://travis-ci.org/nikksindia/SwifteeCache.svg?branch=master)](https://travis-ci.org/nikksindia/SwifteeCache)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Simple on disk cache, backed by an NSCache in memory. It automatically purges itself when memory gets low.
 
@@ -30,6 +32,13 @@ You can use [CocoaPods](https://cocoapods.org/) to install `SwifteeCache` by add
 platform :ios, '10.0'
 use_frameworks!
 pod 'SwifteeCache'
+```
+
+#### Carthage
+Create a `Cartfile` that lists the framework and run `carthage update`. Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/SwifteeCache.framework` to an iOS project.
+
+```
+github "nikksindia/SwifteeCache"
 ```
 
 #### Manually
