@@ -1,4 +1,4 @@
-# SwiftiCache
+# SwifteeCache
 
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
@@ -11,8 +11,8 @@ Simple on disk cache, backed by an NSCache in memory. It automatically purges it
 
 ## Requirements
 
-- iOS 9.0+
-- Xcode 8.1
+- iOS 10.0+
+- Xcode 9
 
 ## Installation
 
@@ -26,7 +26,7 @@ pod 'NKCache'
 ```
 
 #### Manually
-1. Download and drop ```NKCache.swift``` in your project.  
+1. Download and drop ```SwifteeCache.swift``` in your project.  
 2. Congratulations!  
 
 ## Usage
@@ -48,7 +48,7 @@ func objectExistsForKey(_ key:String)->Bool
 
 ## Contribute
 
-We would love you for the contribution to **NKCache**, check the ``LICENSE`` file for more info.
+We would love you for the contribution to **SwifteeCache**, check the ``LICENSE`` file for more info.
 
 ## Meta
 
