@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Example
 //
-//  Created by DMI on 23/05/20.
+//  Created by Nikhil Sharma on 23/05/20.
 //  Copyright © 2020 Nikhil Sharma. All rights reserved.
 //
 

@@ -11,13 +11,13 @@
 		A2359B862479001200762F7C /* SwifteeCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2359B852479001200762F7C /* SwifteeCacheTests.swift */; };
 		A2359B882479001200762F7C /* SwifteeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A2359B7A2479001200762F7C /* SwifteeCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2359B922479005300762F7C /* SwifteeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2359B912479005300762F7C /* SwifteeCache.swift */; };
-		A2359B9A2479015600762F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2359B992479015600762F7C /* AppDelegate.swift */; };
-		A2359B9C2479015600762F7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2359B9B2479015600762F7C /* SceneDelegate.swift */; };
-		A2359B9E2479015600762F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2359B9D2479015600762F7C /* ViewController.swift */; };
-		A2359BA12479015600762F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2359B9F2479015600762F7C /* Main.storyboard */; };
-		A2359BA32479015900762F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2359BA22479015900762F7C /* Assets.xcassets */; };
-		A2359BA62479015900762F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2359BA42479015900762F7C /* LaunchScreen.storyboard */; };
-		A2359BB12479015900762F7C /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2359BB02479015900762F7C /* ExampleTests.swift */; };
+		A2359BC3247906EC00762F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2359BBA247906EC00762F7C /* ViewController.swift */; };
+		A2359BC4247906EC00762F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2359BBB247906EC00762F7C /* Assets.xcassets */; };
+		A2359BC5247906EC00762F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2359BBC247906EC00762F7C /* LaunchScreen.storyboard */; };
+		A2359BC6247906EC00762F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2359BBE247906EC00762F7C /* Main.storyboard */; };
+		A2359BC7247906EC00762F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2359BC0247906EC00762F7C /* AppDelegate.swift */; };
+		A2359BC8247906EC00762F7C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2359BC1247906EC00762F7C /* Info.plist */; };
+		A2359BC9247906EC00762F7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2359BC2247906EC00762F7C /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +27,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = A2359B762479001200762F7C;
 			remoteInfo = SwifteeCache;
-		};
-		A2359BAD2479015900762F7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A2359B6E2479001200762F7C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A2359B962479015600762F7C;
-			remoteInfo = Example;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -46,16 +39,13 @@
 		A2359B872479001200762F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2359B912479005300762F7C /* SwifteeCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifteeCache.swift; sourceTree = "<group>"; };
 		A2359B972479015600762F7C /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2359B992479015600762F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2359B9B2479015600762F7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2359B9D2479015600762F7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2359BA02479015600762F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A2359BA22479015900762F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A2359BA52479015900762F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A2359BA72479015900762F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2359BAC2479015900762F7C /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2359BB02479015900762F7C /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
-		A2359BB22479015900762F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2359BBA247906EC00762F7C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2359BBB247906EC00762F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2359BBD247906EC00762F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2359BBF247906EC00762F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2359BC0247906EC00762F7C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2359BC1247906EC00762F7C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2359BC2247906EC00762F7C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +71,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2359BA92479015900762F7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,8 +79,7 @@
 			children = (
 				A2359B792479001200762F7C /* SwifteeCache */,
 				A2359B842479001200762F7C /* SwifteeCacheTests */,
-				A2359B982479015600762F7C /* Example */,
-				A2359BAF2479015900762F7C /* ExampleTests */,
+				A2359BB9247906EC00762F7C /* Example */,
 				A2359B782479001200762F7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +90,6 @@
 				A2359B772479001200762F7C /* SwifteeCache.framework */,
 				A2359B802479001200762F7C /* SwifteeCacheTests.xctest */,
 				A2359B972479015600762F7C /* Example.app */,
-				A2359BAC2479015900762F7C /* ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,27 +113,18 @@
 			path = SwifteeCacheTests;
 			sourceTree = "<group>";
 		};
-		A2359B982479015600762F7C /* Example */ = {
+		A2359BB9247906EC00762F7C /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				A2359B992479015600762F7C /* AppDelegate.swift */,
-				A2359B9B2479015600762F7C /* SceneDelegate.swift */,
-				A2359B9D2479015600762F7C /* ViewController.swift */,
-				A2359B9F2479015600762F7C /* Main.storyboard */,
-				A2359BA22479015900762F7C /* Assets.xcassets */,
-				A2359BA42479015900762F7C /* LaunchScreen.storyboard */,
-				A2359BA72479015900762F7C /* Info.plist */,
+				A2359BBA247906EC00762F7C /* ViewController.swift */,
+				A2359BBB247906EC00762F7C /* Assets.xcassets */,
+				A2359BBC247906EC00762F7C /* LaunchScreen.storyboard */,
+				A2359BBE247906EC00762F7C /* Main.storyboard */,
+				A2359BC0247906EC00762F7C /* AppDelegate.swift */,
+				A2359BC1247906EC00762F7C /* Info.plist */,
+				A2359BC2247906EC00762F7C /* SceneDelegate.swift */,
 			);
 			path = Example;
-			sourceTree = "<group>";
-		};
-		A2359BAF2479015900762F7C /* ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				A2359BB02479015900762F7C /* ExampleTests.swift */,
-				A2359BB22479015900762F7C /* Info.plist */,
-			);
-			path = ExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,24 +194,6 @@
 			productReference = A2359B972479015600762F7C /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A2359BAB2479015900762F7C /* ExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A2359BB62479015900762F7C /* Build configuration list for PBXNativeTarget "ExampleTests" */;
-			buildPhases = (
-				A2359BA82479015900762F7C /* Sources */,
-				A2359BA92479015900762F7C /* Frameworks */,
-				A2359BAA2479015900762F7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A2359BAE2479015900762F7C /* PBXTargetDependency */,
-			);
-			name = ExampleTests;
-			productName = ExampleTests;
-			productReference = A2359BAC2479015900762F7C /* ExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,10 +214,6 @@
 					A2359B962479015600762F7C = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					A2359BAB2479015900762F7C = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = A2359B962479015600762F7C;
-					};
 				};
 			};
 			buildConfigurationList = A2359B712479001200762F7C /* Build configuration list for PBXProject "SwifteeCache" */;
@@ -282,7 +232,6 @@
 				A2359B762479001200762F7C /* SwifteeCache */,
 				A2359B7F2479001200762F7C /* SwifteeCacheTests */,
 				A2359B962479015600762F7C /* Example */,
-				A2359BAB2479015900762F7C /* ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,16 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2359BA62479015900762F7C /* LaunchScreen.storyboard in Resources */,
-				A2359BA32479015900762F7C /* Assets.xcassets in Resources */,
-				A2359BA12479015600762F7C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A2359BAA2479015900762F7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A2359BC8247906EC00762F7C /* Info.plist in Resources */,
+				A2359BC6247906EC00762F7C /* Main.storyboard in Resources */,
+				A2359BC4247906EC00762F7C /* Assets.xcassets in Resources */,
+				A2359BC5247906EC00762F7C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,17 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2359B9E2479015600762F7C /* ViewController.swift in Sources */,
-				A2359B9A2479015600762F7C /* AppDelegate.swift in Sources */,
-				A2359B9C2479015600762F7C /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A2359BA82479015900762F7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2359BB12479015900762F7C /* ExampleTests.swift in Sources */,
+				A2359BC7247906EC00762F7C /* AppDelegate.swift in Sources */,
+				A2359BC3247906EC00762F7C /* ViewController.swift in Sources */,
+				A2359BC9247906EC00762F7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,28 +299,23 @@
 			target = A2359B762479001200762F7C /* SwifteeCache */;
 			targetProxy = A2359B822479001200762F7C /* PBXContainerItemProxy */;
 		};
-		A2359BAE2479015900762F7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A2359B962479015600762F7C /* Example */;
-			targetProxy = A2359BAD2479015900762F7C /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A2359B9F2479015600762F7C /* Main.storyboard */ = {
+		A2359BBC247906EC00762F7C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A2359BA02479015600762F7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A2359BA42479015900762F7C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2359BA52479015900762F7C /* Base */,
+				A2359BBD247906EC00762F7C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2359BBE247906EC00762F7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2359BBF247906EC00762F7C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -641,48 +571,6 @@
 			};
 			name = Release;
 		};
-		A2359BB72479015900762F7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikksdev.ExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
-			};
-			name = Debug;
-		};
-		A2359BB82479015900762F7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikksdev.ExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -718,15 +606,6 @@
 			buildConfigurations = (
 				A2359BB42479015900762F7C /* Debug */,
 				A2359BB52479015900762F7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A2359BB62479015900762F7C /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A2359BB72479015900762F7C /* Debug */,
-				A2359BB82479015900762F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
