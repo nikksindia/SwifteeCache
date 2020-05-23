@@ -1,0 +1,11 @@
+framework module SwifteeCache {
+  umbrella header "SwifteeCache.h"
+
+  export *
+  module * { export * }
+}
+
+module SwifteeCache.Swift {
+    header "SwifteeCache-Swift.h"
+    requires objc
+}
