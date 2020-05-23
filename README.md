@@ -1,12 +1,12 @@
 # SwifteeCache
 
 [![Swift Version][swift-image]][swift-url]
-[![License][license-image]][license-url]
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwifteeCache.svg)](https://cocoapods.org/pods/SwifteeCache)  
-[![Build Status](https://travis-ci.com/nikksindia/SwifteeCache.svg?branch=master)](https://travis-ci.com/github/nikksindia/SwifteeCache)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![Platform](https://img.shields.io/cocoapods/p/SwifteeCache.svg?style=flat)
+[![License][license-image]][license-url]
+[![Build Status](https://travis-ci.com/nikksindia/SwifteeCache.svg?branch=master)](https://travis-ci.com/github/nikksindia/SwifteeCache)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwifteeCache.svg)](https://cocoapods.org/pods/SwifteeCache)  
 
 Simple on disk cache, backed by an NSCache in memory. It automatically purges itself when memory gets low.
 
