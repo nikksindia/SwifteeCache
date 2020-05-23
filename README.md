@@ -10,6 +10,13 @@ Simple on disk cache, backed by an NSCache in memory. It automatically purges it
 
 ```NOTE: Data Model needs to implement 'Codable(Encodable&Decodable)' protocol to be saved on the cache.```
 
+Features
+===============
+
+- Support all data types complying with the `codable` protocol
+- Thread safe and optmised for fater caching
+- Objects can be purged in case of low memory in the system
+
 ## Requirements
 
 - iOS 10.0+
