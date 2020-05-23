@@ -1,4 +1,4 @@
-# SwifteeCache
+![SwifteeCache](https://raw.githubusercontent.com/nikksindia/SwifteeCache/master/swifteecache.png)
 
 [![Swift Version][swift-image]][swift-url]
 ![Platform](https://img.shields.io/cocoapods/p/SwifteeCache.svg?style=flat)
