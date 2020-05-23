@@ -4,6 +4,7 @@
 [![License][license-image]][license-url]
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwifteeCache.svg)](https://cocoapods.org/pods/SwifteeCache)  
 ![Platform](https://img.shields.io/cocoapods/p/NKCache.svg?style=flat)
+[![Build Status](https://travis-ci.org/nikksindia/SwifteeCache.svg?branch=master)](https://travis-ci.org/nikksindia/SwifteeCache)
 
 Simple on disk cache, backed by an NSCache in memory. It automatically purges itself when memory gets low.
 
