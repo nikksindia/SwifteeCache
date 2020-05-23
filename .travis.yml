@@ -1,4 +1,10 @@
-language: objective-c
-xcode_workspace: SwifteeCache.pbxproj
-xcode_scheme: SwifteeCacheTests
-xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+osx_image: xcode11.3		
+language: objective-c		
+script:		
+  - |		
+    xcodebuild test \		
+    -project frameworks/SwifteeCache.xcodeproj \		
+    -scheme SwifteeCache \		
+    -sdk iphonesimulator \			
+    -destination 'platform=iOS Simulator,name=iPhone X,OS=latest' \
+    | xcpretty
