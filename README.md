@@ -2,7 +2,7 @@
 
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/NKCache.svg)](https://cocoapods.org/pods/NKCache)  
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwifteeCache.svg)](https://cocoapods.org/pods/SwifteeCache)  
 ![Platform](https://img.shields.io/cocoapods/p/NKCache.svg?style=flat)
 
 Simple on disk cache, backed by an NSCache in memory. It automatically purges itself when memory gets low.
@@ -12,17 +12,17 @@ Simple on disk cache, backed by an NSCache in memory. It automatically purges it
 ## Requirements
 
 - iOS 10.0+
-- Xcode 9
+- Xcode 9+
 
 ## Installation
 
 #### CocoaPods
-You can use [CocoaPods](https://cocoapods.org/) to install `NKCache` by adding it to your `Podfile`:
+You can use [CocoaPods](https://cocoapods.org/) to install `SwifteeCache` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '9.0'
+platform :ios, '10.0'
 use_frameworks!
-pod 'NKCache'
+pod 'SwifteeCache'
 ```
 
 #### Manually
@@ -58,7 +58,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [https://github.com/nikksindia](https://github.com/nikksindia/)
 
-[swift-image]:https://img.shields.io/badge/swift-4.0-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-5.1-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-green.svg
 [license-url]: https://github.com/nikksindia/NKCache/License.md
