@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "20ece68b0d51de384e53445ac999b99891db33b2",
+  "iOS" : [
+    {
+      "name" : "SwifteeCache",
+      "hash" : "6a1eec6ff9a88298f8cd5a0e3ecdc92bef4609ec7e36db242f64f3d2a0a46478",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}
