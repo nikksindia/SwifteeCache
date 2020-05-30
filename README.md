@@ -78,6 +78,13 @@ For fetching objects in cache:
 func getObjectForKey<T:Codable>(_ key:String)->T?
 func objectExistsForKey(_ key:String)->Bool
 ```
+# Sample application
+
+Build and run the `Example` target. This is a simple implementation of the library that allows users to select fetch and store codable mock data in the cache.
+
+# Testing
+
+The project includes a unit test and UI test target, providing coverage of the basic layout and functionality of the product. When adding a new feature, be sure to add unit tests and a basic layout test if applicable.
 
 ## Contribute
 
