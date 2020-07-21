@@ -2,6 +2,9 @@ osx_image: xcode11.3
 language: objective-c	
 before_install:
   - chmod +x install_swiftlint.sh
+before_script:
+ - gem install danger --no-ri --no-doc --no-document
+ - gem install danger-swiftlint --no-ri --no-rdoc --no-document
 install:
   - ./install_swiftlint.sh
 script:
